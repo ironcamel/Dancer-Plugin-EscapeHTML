@@ -42,6 +42,8 @@ You can encode specific bits of data yourself using the C<escape_html> and
 C<unescape_html> keywords, or you can enable automatic escaping of all values
 passed to the template.
 
+If you are using L<Template::Toolkit>, these modules provide similar
+functionality: L<Template::HTML> and L<Template::Stash::EscapeHTML>.
 
 =head1 KEYWORDS
 
@@ -163,6 +165,9 @@ L<Dancer>
 
 L<HTML::Entities>
 
+L<Template::HTML>
+
+L<Template::Stash::EscapeHTML>
 
 
 =head1 AUTHOR
